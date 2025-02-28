@@ -23,10 +23,11 @@ body {
 
 h1 {
   text-align: center;
-  color: #fff;
+  color: #000000;
   font-size: 2.5rem;
   margin-bottom: 20px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  animation-direction: alternate;
 }
 
 .todo-form {
@@ -59,13 +60,13 @@ h1 {
 .todo-button {
   padding: 12px 24px;
   margin-left: 10px;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  background: linear-gradient(135deg, #000000, #2a2c30);
   color: #fff;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   font-size: 1rem;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease-in-out;
 }
 
 .todo-button:hover {
@@ -122,7 +123,7 @@ h1 {
   margin-left: 10px;
   cursor: pointer;
   font-size: 1.1rem;
-  color: #fff;
+  color: #ffffff;
 }
 
 .todo-item.completed span {
@@ -137,7 +138,7 @@ h1 {
   border-radius: 5px;
   font-size: 1rem;
   background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  color: #ffffff;
 }
 
 .todo-item .actions {
@@ -171,13 +172,13 @@ h1 {
 .todo-stats p {
   margin: 10px;
   font-size: 1rem;
-  color: #000000;
+  color: #ffffff;
 }
 
 .todo-stats button {
   padding: 8px 16px;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
-  color: #000000;
+  background: linear-gradient(135deg, #000000, #312b2b);
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -201,14 +202,14 @@ h1 {
 
 .quote-generator p {
   font-size: 1.2rem;
-  color: #000000;
+  color: #ffffff;
   font-style: italic;
 }
 
 .quote-generator button {
   padding: 10px 20px;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
-  color: #000000;
+  background: linear-gradient(135deg, #000000, #494343);
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
