@@ -106,10 +106,10 @@ h1 {
   align-items: center;
   padding: 15px;
   margin: 10px 0;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(7, 100, 177, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-in-out 0.25;
 }
 
 .todo-item.completed {
@@ -146,16 +146,16 @@ h1 {
 }
 
 .todo-item .actions button {
-  background: none;
-  border: none;
+  background: inline;
+  border: solid;
   cursor: pointer;
   font-size: 1rem;
-  color: #fff;
+  color: #b66b3a;
   transition: color 0.3s ease;
 }
 
 .todo-item .actions button:hover {
-  color: #6a11cb;
+  color: #4400ff;
 }
 
 .todo-stats {
@@ -169,15 +169,15 @@ h1 {
 }
 
 .todo-stats p {
-  margin: 0;
+  margin: 10px;
   font-size: 1rem;
-  color: #fff;
+  color: #000000;
 }
 
 .todo-stats button {
   padding: 8px 16px;
   background: linear-gradient(135deg, #6a11cb, #2575fc);
-  color: #fff;
+  color: #000000;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -201,14 +201,14 @@ h1 {
 
 .quote-generator p {
   font-size: 1.2rem;
-  color: #fff;
+  color: #000000;
   font-style: italic;
 }
 
 .quote-generator button {
   padding: 10px 20px;
   background: linear-gradient(135deg, #6a11cb, #2575fc);
-  color: #fff;
+  color: #000000;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -217,8 +217,8 @@ h1 {
 }
 
 .quote-generator button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
 
 @media (max-width: 768px) {
