@@ -3,7 +3,7 @@ import TodoForm from "./Components/TodoForm";
 import QuoteGenerator from "./Components/QuoteGenerator";
 import TodoFilter from "./Components/TodoFilter";
 import './App.css'
-import TodoItem from "./Components/Todoitem";
+import TodoItem from "./Components/TodoItem";
 
 function App() {
   const [todos, setTodos] = useState([]);
